@@ -1,0 +1,61 @@
+.center p{
+	text-align: center;
+	margin:auto;
+	font-size: small;
+	font-family: arial,sans-serif;
+}
+
+.center {
+	height: 375px;
+}
+
+.logo img{
+	position: relative;
+    height: 95px;
+    width: 269px;
+    background-image: 269px 96px;
+}
+.logo p{
+	position: relative;	
+	top : -30px;
+	left: 115px;
+	color: #777;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+}
+
+.logo {
+	position: relative;
+	margin: auto;
+	height: 95px;
+    width: 269px;
+}
+.btn{
+	margin: auto;
+	width: 455px; height: 28px;
+	display:block;
+	text-align: center;
+}
+.btn input{
+	margin:15px 8px 15px 8px;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+}
+.search_bar{
+	margin: auto;
+	margin-top: 15px; margin-bottom: 10px;
+	width: 455px; height: 28px;
+}
+
+.search_bar input{
+	width: 455px;
+	height: 28px;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+}
+
+
+
+
