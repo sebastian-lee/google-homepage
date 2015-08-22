@@ -1,3 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+	margin-left: auto;
+	margin-right:0px;
+	width: 280px;
+}
+
+.nav ul{
+	list-style-type:none;
+}
+
+.nav li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+}
+
+#blocks {
+	background-image: url(https://ssl.gstatic.com/gb/images/i2_e0f0a2bf.png);
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	height:30px; width: 30px;
+
+}
+
+#sign_in{
+	height: 30px; width: 70px;
+	border:  1px solid #4285f4;
+	background-color: #4285f4;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sign_in p{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 .center p{
 	text-align: center;
 	margin:auto;
@@ -6,7 +53,7 @@
 }
 
 .center {
-	height: 375px;
+	vertical-align: middle;
 }
 
 .logo img{
@@ -56,6 +103,42 @@
 	font-family: arial,sans-serif;
 }
 
+.footer {
+	position: absolute;
+	width: 100%;
+	border-top:1px solid #e4e4e4;
+	background: #f2f2f2;
+	height: 35px;
+	bottom: 0px;
+}
 
+.footer ul{
+	list-style-type:none;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
 
+}
 
+.footer li{
+	display:inline-block;
+	margin: 10px 5px 0 5px;
+}
+
+.l_foot {
+	padding-left: 10px;
+	position: relative;
+	float:left;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+}
+
+.r_foot {
+	padding-right: 10px;
+	position: relative;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+}
